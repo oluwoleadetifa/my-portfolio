@@ -1,0 +1,160 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adetifa Oluwole</title>
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<header>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <a class='text-white h4' href="#">Contact for business</a> <br>
+            <a class='text-white h4' href="#">Projects</a> <br>
+            <a class='text-white h4' href="#">Dance</a> <br>
+            <a class='text-white h4' href="#">About</a> <br>
+            <span class="text-muted">This website was created by Oluwole Adetifa</span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 ">
+                <div class="card card-body h-100 border-info">
+                    <img id="profile-picture" src="{% static 'images/profilepic.png' %}" alt="desktop">
+                    <hr>
+                    <span class="h4 text-center cursive">Hi, I'm wole</span>
+                    <p class="cursive text-center"> I love coding, music, and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9 ">
+                <div class="card card-body h-100 border-info">
+                    <p class="h4">My first Job as a Developer</p>
+                    <hr>
+                    <p>A few years after writing my first Hello World program in June of 2016(While doing my first
+                        internship), I had convinced my boss that I would make a great addition even though I had been
+                        off web development for an extended period due to many unforeseen issues. On coming back to the
+                        dev world, I realized most of the things I knew were already outdated and I had to learn on the
+                        job.
+                    </p>
+                    <p>
+                        Before I knew it, my renewed rookie self had learned to use django instead of cakephp for my
+                        backend development as well as learn usable jquery in two days.
+                    </p>
+                    <p>
+                        I am one who is up for challenges, and would quick dive in before getting fazed by it.
+                    </p>
+
+                    <ul class="social-links">
+                        <li><a href="https://web.facebook.com/adetifa.oluwole.7/"><img class="social"
+                                                                                       src="{% static 'images/facebook.png' %} "
+                                                                                       alt='facebook logo'></a></li>
+                        <li><a href="https://twitter.com/le_wole"><img class="social"
+                                                                       src="{% static 'images/twitter.png' %}"
+                                                                       alt="twitter logo"></a></li>
+                        <li><a href="https://www.linkedin.com/in/oluwole-adetifa-278586113/"><img class="social"
+                                                                                                  src="{% static 'images/linkedin.png' %}"
+                                                                                                  alt="linkedin logo"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/le.wole/"><img class="social"
+                                                                              src="{% static 'images/instagram.png' %}"
+                                                                              alt="instagram logo"></a></li>
+                        <li><a href="https://github.com/oluwoleadetifa"><img class="social"
+                                                                             src="{% static 'images/github.png' %}"
+                                                                             alt="instagram logo"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <p class="h5">
+                        My experience as a developer
+                    </p>
+                    <hr>
+                    <p> Junior software developer at Mul-T-lock Nigeria Limited</p>
+                    <p>
+                        Designed and built an Itinerary system for the firm. Assisted in building a CMS system that
+                        houses all web application services the company offers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <p class="h5"> What I know</p>
+                    <hr>
+                    <p>
+                        Python, Django, HTML/CSS, JavaScript/Jquery, CakePhp, Sqlite, Postgres
+                    </p>
+                    <p>
+                        PS: Working on React, NodeJs, MongoDB and Machine Learning
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <p class="h5">How I learn</p>
+                    <hr>
+                    <p> An active project with a video guide</p>
+                    <p>
+                        I can learn just about anything once I finish my first project with the programming language
+                        with a video guide. I also learn by reading documentations and experimenting.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <p class="h5">My Short Term Goals</p>
+                    <hr>
+                    <p>
+                        I am currently interested in building small projects and master major web development
+                        technologies so as to be an asset to any team requiring my services.
+                    </p>
+                    <p>
+                        Apart from building small projects, I want to learn from people in the machine learning world
+                        and divulge full time into it in a few years.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+#profile-picture {
+   width: 70%;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: aliceblue !important;
+}
+
+.row {
+    padding-top: 30px !important;
+}
+
+.cursive {
+    font-family: cursive;
+}
+.social-links ul, li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social{
+    width:20px;
+    height:20px;
+}
