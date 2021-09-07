@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+6@qkhgzz3+hm2u0ofo$yg^vj+_+94+bqd2udyxtr=8v)43k@^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wole-portfolio.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
